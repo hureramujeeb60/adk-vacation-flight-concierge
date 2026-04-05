@@ -164,5 +164,3 @@ The agent should inspect the booking, evaluate the disruption, and then act.
 ## Notes for Publishing
 - The project uses mocked travel data so it is reproducible and easy to demo.
 - No real booking or payment is performed.
-- The strongest GitHub demo value comes from the README scenarios and the agent's reasoning trace, not from backend complexity.
-- Keep `.env` out of version control. A `.gitignore` is included for that purpose.
