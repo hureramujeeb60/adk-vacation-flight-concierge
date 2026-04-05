@@ -58,6 +58,12 @@ Then edit `.env`:
 GOOGLE_API_KEY="YOUR_API_KEY"
 ```
 
+You can get a free Gemini API key for testing from Google AI Studio:
+- Google AI Studio: https://ai.google.dev/aistudio
+- Get a Gemini API key: https://ai.google.dev/aistudio
+
+This project uses `Gemini 2.5 Flash`, so Google AI Studio is the quickest way to get a free `GOOGLE_API_KEY` and try the agent locally.
+
 ### 3. Start the demo
 ```bash
 docker compose up --build
@@ -79,6 +85,11 @@ Select this agent in the dropdown:
 ```text
 vacation_flight_concierge
 ```
+
+## ADK Web UI Preview
+Below is an example of the concierge running in the ADK Web UI, comparing fare rules and explaining which option is safer for a family trip.
+
+![alt text](image.png)
 
 ## Architecture Overview
 ### 1. MCP Server
